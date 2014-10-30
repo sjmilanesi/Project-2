@@ -2,8 +2,8 @@ package Main.WashoosEvent;
 
 
 public class WashoosEvent extends Event {
-    public boolean hasAutoWinStick;
-    public int numWashoos;
+    private boolean hasAutoWinStick;
+    private int numWashoos;
     public WashoosEvent(boolean hasAutoWinStick, int numWashoos)
     {
         this.hasAutoWinStick = hasAutoWinStick;
