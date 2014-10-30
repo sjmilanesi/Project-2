@@ -2,7 +2,7 @@ package Main.StickGameEvent;
 
 
 public class StickGameEvent extends Event {
-    public int frisbeeSize;
+    private int frisbeeSize;
     public StickGameEvent(int frisbeeSize)
     {
         this.frisbeeSize = frisbeeSize;
