@@ -5,7 +5,8 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static String[] eventArray;
+    public static EventManager;
+    public static OlympianManager;
 
     public Main() {
         eventArray = new String[]
@@ -17,16 +18,16 @@ public class Main {
 
 
     public static void displayEvents() {
-        for (int i = 0; i < eventArray.length; i++) {
-            System.out.println(eventArray[i]);
+        for (int i = 0; i < EventManager.length; i++) {
+            System.out.println(EventManager[i]);
         }
     }
 
     public static void displayOlympian() {
-        for (int i = 0; i < olympianArray.length; i++) {
-            System.out.println(olympianArray[i][0] + " ");
-            for (int j = 1; j < olympianArray[i].length; j++) {
-                System.out.println(olympianArray[i][j] + " ");
+        for (int i = 0; i < OlympianManager.length; i++) {
+            System.out.println(OlympianManager[i][0] + " ");
+            for (int j = 1; j < OlympianManager[i].length; j++) {
+                System.out.println(OlympianManager[i][j] + " ");
             }
         }
     }
@@ -40,11 +41,11 @@ public class Main {
             {
                 if(args[i] == "e" || args[i] == "events")
                 {
-                    eventTrue = true;
+                    displayEvents();
                 }
                 else if(args[i] == "o" || args[i] == "olympians")
                 {
-                    olympianTrue = true;
+                    displayOlympians(); 
                 }
                 else if(args[i] == "h" || args[i] =="help")
                 {
