@@ -5,8 +5,9 @@ import java.util.Scanner;
 
 public class Main {
 
-    public static EventManager;
-    public static OlympianManager;
+    public static EventManager eventManager = new EventManager();
+    public static OlympianManager olympianManager = new OlympianManager();
+    public static TeamManager teamManager = new TeamManager();
 
     public Main() {
         eventArray = new String[]
