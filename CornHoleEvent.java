@@ -2,7 +2,7 @@ package Main.CornHoleEvent;
 
 
 public class CornHoleEvent extends Event {
-    public int numBeanBags;
+    private int numBeanBags;
     public void setNumBeanBags(int numBeanBags)
     {
         this.numBeanBags = numBeanBags;
