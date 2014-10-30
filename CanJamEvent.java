@@ -3,6 +3,7 @@ package Main.CanJamEvent;
 
 public class CanJamEvent extends Event {
     private int frisbeeSize;
+    
     public void setFrisbeeSize(int frisbeeSize)
     {
         this.frisbeeSize = frisbeeSize;
