@@ -10,7 +10,7 @@ public class CanJamEvent extends Event {
     }
     
     public int getFrisbeeSize(){
-        return this.FrisbeeSize;
+        return "The Frisbee size is" + this.FrisbeeSize;
     }
 
     @Override
