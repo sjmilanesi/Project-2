@@ -5,13 +5,23 @@ public class OlympianManager {
 
     public Olympian[] olympians = new Olympian[15];
     public int count = 0;
-
-    olympianArray = new String[][]{
-        {"Steve Milanesi", "Male", "Age 22"}, {"Andrew Milanesi", "Male", "Age 24"}, {"Vanessa Milanesi", "Female", "Age 21"},
-        {"Gary Milanesi", "Male", "Age 61"}, {"Mary Milanesi", "Female", "Age 55"}, {"Jeremy Milanesi", "Male", "Age 32"},
-        {"Armand Milanesi", "Male", "Age 45"}, {"Chloe Milanesi", "Female", "Age 12"}, {"Ellen Milanesi", "Female", "Age 40"},
-        {"Anothony Milanesi", "Male", "Age 35"}, {"Rob Milanesi", "Male", "Age 36"}, {"Michael Milanesi", "Male", "Age 32"},
-        {"Nicole Milanesi", "Female", "Age 29"}, {"Kevin Milanesi", "Male", "Age 28"}, {"Christopher Milanesi", "Male", "Age 18"},
+    
+    public OlympianManager(){
+        addOlympian("Steven", Sex.Male, 22);
+        addOlympian("Andrew", Sex.Male, 24);
+        addOlympian("Vanessa", Sex.Female, 21);
+        addOlympian("Gary", Sex.Male, 61);
+        addOlympian("Mary", Sex.Female, 55);
+        addOlympian("Jeremy", Sex.Male, 32);
+        addOlympian("Armand", Sex.Male, 45);
+        addOlympian("Chloe", Sex.Female, 12);
+        addOlympian("Ellen", Sex.Female, 40);
+        addOlympian("Anthony", Sex.Male, 35);
+        addOlympian("Rob", Sex.Male, 36);
+        addOlympian("Michael", Sex.Male, 32);
+        addOlympian("Nicole", Sex.Male, 29);
+        addOlympian("Kevin", Sex.Male, 28);
+        addOlympian("Christopher", Sex.Male, 18);
     }
 
     private void addOlympian(String name, Sex sex, int age){
