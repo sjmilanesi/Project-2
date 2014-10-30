@@ -2,7 +2,7 @@ package Main.LadderBallEvent;
 
 
 public class LadderBallEvent extends Event {
-    public int numRungs;
+    private int numRungs;
     public LadderBallEvent(int numRungs)
     {
         this.numRungs = numRungs;
