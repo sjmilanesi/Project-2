@@ -2,7 +2,7 @@ package Main.HorseShoesEvent;
 
 
 public class HorseShoesEvent extends Event {
-    public int numBeanBags;
+    private int numBeanBags;
     public void setNumHorseShoes(int numHorseShoes)
     {
         this.numHorseShoes = numHorseShoes;
